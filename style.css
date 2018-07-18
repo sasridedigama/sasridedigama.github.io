@@ -47,7 +47,7 @@ h1 {
 
 
 
-#myCanvasContainer {
+#skills {
 
     background-color: black;
     height: 100vh;
@@ -75,6 +75,11 @@ h1 {
   border:2px solid #000;
 
 
+}
+
+.w3-container w3-black {
+
+  text-align: center;
 }
 
 
@@ -193,7 +198,8 @@ Navigation
 ==================================== */
 
 .overlay-navigation {
-  position: fixed;
+
+  position: absolute;
   z-index: 99;
   top: 0;
   left: 0;
