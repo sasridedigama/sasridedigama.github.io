@@ -35,7 +35,7 @@ h1 {
     width: 100%;
     color: black;
     text-align: center;
-    font-size: 2em;
+    font-size: 20px;
     line-height: 1.2;
 
     }
@@ -43,9 +43,14 @@ h1 {
 #about img {
 
    border:3px solid  #000;
+   align-items: center;
 }
 
-
+.center-justified {
+    margin: 0 auto;
+    text-align: justify;
+    width: 30rem;
+}
 
 #skills {
 
@@ -68,7 +73,7 @@ h1 {
 
 #projects img{
 
-  width: 200px;
+  width: 100px;
   height: 300px;
   margin-top: 10px;
   padding: 10px;
@@ -621,6 +626,16 @@ Animation keyframes
     .index-content .col-lg-4 {
         margin-top: 20px;
     }
+    .center-justified{
+      width: 90%;
+
+    }
+
+    #myCanvas {
+
+      width: 700px;
+      height: 500px;
+    }
 }
 
 
@@ -637,11 +652,7 @@ Animation keyframes
   .text {
     font-size: 5vw;
   }
-  #myCanvas {
 
-    width: 500px;
-    height: 300px;
-  }
 }
 
 
