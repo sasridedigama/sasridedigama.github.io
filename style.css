@@ -50,6 +50,7 @@ h1 {
     margin: 0 auto;
     text-align: justify;
     width: 30rem;
+    font-size: 25px;
 }
 
 #skills {
@@ -628,13 +629,14 @@ Animation keyframes
     }
     .center-justified{
       width: 90%;
+      font-size: 18px;
 
     }
 
     #myCanvas {
 
-      width: 700px;
-      height: 500px;
+      width: 200px;
+      height: 400px;
     }
 }
 
