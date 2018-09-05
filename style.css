@@ -46,12 +46,23 @@ h1 {
    align-items: center;
 }
 
+#about a {
+  color: black;
+  font-weight: bold;
+}
+
+#about a:hover {
+  color: black;
+}
+
 .center-justified {
     margin: 0 auto;
     text-align: justify;
     width: 30rem;
-    font-size: 25px;
+    font-size: 18px;
 }
+
+
 
 #skills {
 
@@ -630,13 +641,15 @@ Animation keyframes
     .center-justified{
       width: 90%;
       font-size: 18px;
-
     }
-
     #myCanvas {
 
       width: 200px;
       height: 400px;
+    }
+    #about img {
+      width: 225px;
+      height: 225px;
     }
 }
 
