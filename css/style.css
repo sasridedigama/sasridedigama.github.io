@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "Inconsolata", Arial, sans-serif;
+  font-family: "Lato", Arial, sans-serif;
 }
 .sauce-nav #sauce-logo a span {
   color: #3FA32C;
@@ -1281,7 +1281,7 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Inconsolata", Arial, sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
