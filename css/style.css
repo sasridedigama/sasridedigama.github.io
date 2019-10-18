@@ -37,6 +37,35 @@ body {
   }
 }
 
+
+.sqw {
+    position: inline-block;
+    top: 60%;
+	display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+}
+.text {
+    color: black;
+    font-size: 32px;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: 700;
+    color: #333333;
+      }
+.tpq {
+    max-width: 0;
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
+.dot {
+    color:#3FA32C; 
+}
+.text:hover .tpq {
+    opacity: 1;
+    max-width: 1em;
+}
+
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -106,7 +135,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fff;
 }
 .sauce-nav .top-menu {
-  padding: 28px 0;
+  padding: 2px 0;
 }
 .sauce-nav #sauce-logo {
   font-size: 32px;
@@ -1285,7 +1314,7 @@ input[type="text"] {
   right: 0px;
   top: 65px;
   z-index: 21;
-  padding: 6px 0 0 0;
+  padding: 40px 0 0 0;
   display: block;
   margin: 0 auto;
   display: none;
@@ -1502,5 +1531,5 @@ input[type="text"] {
 }
 
 .imageshadow{
-  box-shadow: 10px 10px 4px #3fa32c;
+  box-shadow: 15px 15px 0px #3fa32c;
 }
