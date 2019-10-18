@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", Arial, sans-serif;
   font-weight: 400;
@@ -1314,7 +1318,7 @@ input[type="text"] {
   right: 0px;
   top: 65px;
   z-index: 21;
-  padding: 40px 0 0 0;
+  padding: 15px 0 0 0;
   display: block;
   margin: 0 auto;
   display: none;
