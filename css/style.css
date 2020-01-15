@@ -19,6 +19,28 @@ body {
   background: #fff;
 }
 
+img {
+    transition: -webkit-transform 0.25s ease;
+    position: relative;
+    z-index: 3;
+       
+
+}
+
+img:active {
+    -webkit-transform: scale(1.5);
+    
+    
+}
+
+img:hover{
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
+    caret-color: blue;
+    
+}
+
 .arrow {
   font-size: 1.4rem;
   margin: 2% 0;
@@ -96,6 +118,7 @@ body {
   background: rgba(0, 0, 0, 0.7);
   content: "";
 }
+
 
 a {
   color: #3FA32C;
@@ -535,6 +558,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .user-frame {
   width: 90%;
   padding: 3em;
+  background-color: white;
   -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
   -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
   box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.13);
@@ -721,7 +745,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .sauce-heading {
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 .sauce-heading.sauce-heading-sm {
   margin-bottom: 2em;
@@ -729,6 +753,19 @@ h1, h2, h3, h4, h5, h6, figure {
 .sauce-heading h2 {
   border-bottom: solid 3px #3FA32C;
       display: inline;
+      padding-bottom: 3px;
+}
+
+
+h4{
+    border-bottom: solid 3px #3FA32C;
+      display: inline-block;
+      padding-bottom: 3px;
+}
+
+h2{
+     border-bottom: solid 3px #3FA32C;
+      display: inline-block;
       padding-bottom: 3px;
 }
 
@@ -1373,6 +1410,7 @@ input[type="text"] {
   color: #3FA32C;
   border: 2px solid #3FA32C;
 }
+
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #3FA32C;
   color: #fff;
@@ -1515,6 +1553,10 @@ input[type="text"] {
   padding-bottom: 2em !important;
 }
 
+.row{
+    margin-bottom: 2em;
+}
+
 .nopadding {
   padding: 0 !important;
   margin: 0 !important;
@@ -1537,3 +1579,16 @@ input[type="text"] {
 .imageshadow{
   box-shadow: 15px 15px 0px #3fa32c;
 }
+
+/* ---- particles.js---- */
+canvas{ position: fixed;
+    width: 100%;
+    height: 100%;
+    } 
+
+/* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #ffffff; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+
+
+
+
+
