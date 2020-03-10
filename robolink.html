@@ -44,11 +44,19 @@
 
 	</head>
 	<body>
-		
-	<div class="sauce-loader"></div>
+       
+    <div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
 	
-	<div id="page">
         
+
+	<div class="sauce-loader"></div>
+ 
+	<div id="page">
+  
         
 	<nav class="sauce-nav" role="navigation">
 		<div class="top-menu">
@@ -332,6 +340,18 @@ After sketching and prototyping with A4 paper I was able to scale the designs to
 	<script src="js/jquery.flexslider-min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+    
+   <script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
 
 	</body>
 </html>
