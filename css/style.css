@@ -22,7 +22,7 @@ body {
 img {
     transition: -webkit-transform 0.25s ease;
     position: relative;
-    z-index: 3;
+    z-index: 0;
        
 
 }
@@ -1611,6 +1611,6 @@ canvas{ position: fixed;
   height: 8px;
   background: #62a843;
   width: 0%;
-  z-index: 999999;
+  z-index: 999;
 }
 
